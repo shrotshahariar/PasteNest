@@ -4,7 +4,7 @@
 
 A local clipboard history for macOS. Open the menu-bar picker, find something you copied, and click once to paste it back into the app you were using.
 
-**[Download PasteNest 1.1.2 for Apple Silicon](https://github.com/shrotshahariar/PasteNest/releases/download/v1.1.2/PasteNest-1.1.2-macOS-arm64.zip)** · [Release notes and checksum](https://github.com/shrotshahariar/PasteNest/releases/tag/v1.1.2)
+**[Download PasteNest 1.2 for Apple Silicon](https://github.com/shrotshahariar/PasteNest/releases/download/v1.2.0/PasteNest-1.2-macOS-arm64.zip)** · [Release notes and checksum](https://github.com/shrotshahariar/PasteNest/releases/tag/v1.2.0)
 
 <p><img src="picker.png" width="600" alt="PasteNest's light quick-paste window showing sample clips and their source apps"></p>
 
@@ -15,6 +15,10 @@ A local clipboard history for macOS. Open the menu-bar picker, find something yo
 3. Press **⌘⇧Space**. Search or use the arrow keys, then click a row or press Return. The picker opens on the display under your pointer.
 
 For automatic insertion, allow the installed app under **System Settings → Privacy & Security → Accessibility**. Some macOS versions call this **Device Control and Data Access**. You can also use **Copy** and paste manually. This release is ad-hoc signed and has not been notarized by Apple. Gatekeeper may block the downloaded build.
+
+## Text filters
+
+Open the **…** menu on a text or link clip and choose **Paste with Filter**. Extract Web Links and Extract Email Addresses paste each distinct match on a new line, in its original order. Markdown Blockquote prefixes each line with a quote marker. Filtering runs on your Mac and preserves the original clip.
 
 ## In the picker
 
