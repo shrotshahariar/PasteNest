@@ -4,7 +4,7 @@
 
 A local clipboard history for macOS. Open the menu-bar picker, find something you copied, and click once to paste it back into the app you were using.
 
-**[Download PasteNest 1.2 for Apple Silicon](https://github.com/shrotshahariar/PasteNest/releases/download/v1.2.0/PasteNest-1.2-macOS-arm64.zip)** · [Release notes and checksum](https://github.com/shrotshahariar/PasteNest/releases/tag/v1.2.0)
+**[Download PasteNest 1.3 for Apple Silicon](https://github.com/shrotshahariar/PasteNest/releases/download/v1.3.0/PasteNest-1.3-macOS-arm64.zip)** · [Release notes and checksum](https://github.com/shrotshahariar/PasteNest/releases/tag/v1.3.0)
 
 <p><img src="picker.png" width="600" alt="PasteNest's light quick-paste window showing sample clips and their source apps"></p>
 
@@ -15,6 +15,16 @@ A local clipboard history for macOS. Open the menu-bar picker, find something yo
 3. Press **⌘⇧Space**. Search or use the arrow keys, then click a row or press Return. The picker opens on the display under your pointer.
 
 For automatic insertion, allow the installed app under **System Settings → Privacy & Security → Accessibility**. Some macOS versions call this **Device Control and Data Access**. You can also use **Copy** and paste manually. This release is ad-hoc signed and has not been notarized by Apple. Gatekeeper may block the downloaded build.
+
+## In the menu bar
+
+The folded-paper icon shows when a clip reaches your history. A sheet slips into the pocket and turns into a brief checkmark. Pausing capture shows two steady bars. With macOS Reduce Motion enabled, successful copies show the checkmark immediately.
+
+<details><summary>Preview the menu-bar icon in motion</summary>
+
+<img src="menu-feedback.png" width="350" alt="The PasteNest icon and its monochrome menu-bar mark move from ready to saved, paused, and ready again.">
+
+</details>
 
 ## Text filters
 
