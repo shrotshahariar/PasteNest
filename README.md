@@ -4,7 +4,7 @@
 
 A local clipboard history for macOS. Open the menu-bar picker, find something you copied, and click once to paste it back into the app you were using.
 
-**[Download PasteNest 1.3.1 for Apple Silicon](https://github.com/shrotshahariar/PasteNest/releases/download/v1.3.1/PasteNest-1.3.1-macOS-arm64.zip)** · [Release notes and checksum](https://github.com/shrotshahariar/PasteNest/releases/tag/v1.3.1)
+**[Download PasteNest 1.4 for Apple Silicon](https://github.com/shrotshahariar/PasteNest/releases/download/v1.4.0/PasteNest-1.4-macOS-arm64.zip)** · [Release notes and checksum](https://github.com/shrotshahariar/PasteNest/releases/tag/v1.4.0)
 
 <p><img src="picker.png" width="600" alt="PasteNest's light quick-paste window showing sample clips and their source apps"></p>
 
@@ -15,6 +15,12 @@ A local clipboard history for macOS. Open the menu-bar picker, find something yo
 3. Press **⌘⇧Space**. Search or use the arrow keys, then click a row or press Return. The picker opens on the display under your pointer.
 
 For automatic insertion, allow the installed app under **System Settings → Privacy & Security → Accessibility**. Some macOS versions call this **Device Control and Data Access**. You can also use **Copy** and paste manually. This release is ad-hoc signed and has not been notarized by Apple. Gatekeeper may block the downloaded build.
+
+## Get Info
+
+Open a clip’s **…** menu or right-click it, then choose **Get Info**. Use **Preview** to read the clip and **Done** to return to the picker.
+
+<p><img src="get-info.png" width="310" alt="The Get Info tab for a sample TextEdit clip, showing its source, last copy time, type, collection, and character count."></p>
 
 ## In the menu bar
 
@@ -32,7 +38,7 @@ Open the **…** menu on a text or link clip and choose **Paste with Filter**. E
 
 ## In the picker
 
-The picker opens with a library sidebar. Click a collection or a library filter to narrow the list. Look for the leather folio for Work, the bookmarked journal for Personal, and the archive box for Pastebot imports. Other collections have tabbed folders with a color that stays consistent across launches. Each row shows the source app and copy date. The sidebar button beside Search switches between library and compact views and remembers your choice.
+The picker opens with a library sidebar. Click a collection or a library filter to narrow the list. Look for the leather folio for Work, the bookmarked journal for Personal, and the archive box for Pastebot imports. Other collections have tabbed folders with a color that stays consistent across launches. Rows show the clip and its source app icon. Choose **… → Get Info** for the source app name, last copied date and time, clip type, and collection. Text and links also show a character count. Switch to **Preview** in the same popover to see the content. The sidebar button beside Search switches between library and compact views and remembers your choice.
 
 - Search by text, source app, or collection. Source logos help distinguish similar entries.
 - Use a row’s **…** menu to preview, favorite, organize, or delete a clip.
@@ -40,9 +46,9 @@ The picker opens with a library sidebar. Click a collection or a library filter 
 - Open the gear to choose a shortcut, switch appearance, pause capture, or ignore an app.
 - Click outside to dismiss. Capture continues in the menu bar until you quit.
 
-<details><summary>Collection icons in light and dark</summary>
+<details><summary>Library and collection icons in light and dark</summary>
 
-<img src="collections.png" width="300" alt="Work folio, Personal journal, Pastebot archive box, and a custom folder in light and dark mode.">
+<img src="sidebar.png" width="300" alt="Library and collection artwork in both appearances, including a paper tray, brass star, photo print and chain links.">
 
 </details>
 
