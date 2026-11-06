@@ -4,7 +4,7 @@
 
 A local clipboard history for macOS. Open the menu-bar picker, find something you copied, and click once to paste it back into the app you were using.
 
-**[Download PasteNest 1.4 for Apple Silicon](https://github.com/shrotshahariar/PasteNest/releases/download/v1.4.0/PasteNest-1.4-macOS-arm64.zip)** · [Release notes and checksum](https://github.com/shrotshahariar/PasteNest/releases/tag/v1.4.0)
+**[Download PasteNest 1.5 for Apple Silicon](https://github.com/shrotshahariar/PasteNest/releases/download/v1.5.0/PasteNest-1.5-macOS-arm64.zip)** · [Release notes and checksum](https://github.com/shrotshahariar/PasteNest/releases/tag/v1.5.0)
 
 <p><img src="picker.png" width="600" alt="PasteNest's light quick-paste window showing sample clips and their source apps"></p>
 
@@ -54,9 +54,11 @@ The picker opens with a library sidebar. Click a collection or a library filter 
 
 ## What is stored
 
-Your history stays in `~/Library/Application Support/PasteNest/`. The app uses no account or cloud service. It skips secure input, excluded sources, and clipboard items marked private or transient. History files are owner-readable and are not encrypted by the app. Mac backups can include them.
+PasteNest saves each readable copy on your Mac, including repeats, personal text, and copies marked sensitive. Rich text, images, file references and multi-item selections keep their readable clipboard formats. PasteNest checks the current clipboard on launch and retries delayed data while running. macOS supplies only the current clipboard, so an item overwritten between checks can be missed.
 
-By default, recent history lasts 30 days with a limit of 500 unprotected items. Favorites and collections persist until you remove them. If you previously imported a Pastebot library, its separate local snapshots remain after clearing the searchable history.
+**Settings → Pause capture** stops all recording. **Skip sensitive copies** skips recognized sensitive sources and clipboard markers. Use **Ignored apps** to exclude individual apps. Unmarked personal text can still enter history while capture is enabled.
+
+History stays in `~/Library/Application Support/PasteNest/` with owner-only permissions. The app has no account or cloud service. Its files are unencrypted and Mac backups can include them. New installations keep copies until you delete them. **Keep history** can expire ordinary items after 1, 7, 30 or 90 days. Favorites and collection items stay until deleted. A previous explicit retention setting is preserved. Clearing history keeps any separate Pastebot import snapshots.
 
 ## Verify the download
 
