@@ -4,9 +4,9 @@
 
 A local clipboard history for macOS. Open the menu-bar picker, find something you copied, and click once to paste it back into the app you were using.
 
-**[Download PasteNest 1.1.1 for Apple Silicon](https://github.com/shrotshahariar/PasteNest/releases/download/v1.1.1/PasteNest-1.1.1-macOS-arm64.zip)** · [Release notes and checksum](https://github.com/shrotshahariar/PasteNest/releases/tag/v1.1.1)
+**[Download PasteNest 1.1.2 for Apple Silicon](https://github.com/shrotshahariar/PasteNest/releases/download/v1.1.2/PasteNest-1.1.2-macOS-arm64.zip)** · [Release notes and checksum](https://github.com/shrotshahariar/PasteNest/releases/tag/v1.1.2)
 
-<p><img src="picker.png" width="600" alt="PasteNest's dark quick-paste window showing sample clips and their source apps"></p>
+<p><img src="picker.png" width="600" alt="PasteNest's light quick-paste window showing sample clips and their source apps"></p>
 
 ## Getting started
 
