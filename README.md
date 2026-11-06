@@ -4,9 +4,9 @@
 
 A local clipboard history for macOS. Open the menu-bar picker, find something you copied, and click once to paste it back into the app you were using.
 
-**[Download PasteNest 1.1 for Apple Silicon](https://github.com/shrotshahariar/PasteNest/releases/download/v1.1.0/PasteNest-1.1-macOS-arm64.zip)** · [Release notes and checksum](https://github.com/shrotshahariar/PasteNest/releases/tag/v1.1.0)
+**[Download PasteNest 1.1.1 for Apple Silicon](https://github.com/shrotshahariar/PasteNest/releases/download/v1.1.1/PasteNest-1.1.1-macOS-arm64.zip)** · [Release notes and checksum](https://github.com/shrotshahariar/PasteNest/releases/tag/v1.1.1)
 
-<p><img src="picker.png" width="432" alt="PasteNest's dark quick-paste window showing sample clips and their source apps"></p>
+<p><img src="picker.png" width="600" alt="PasteNest's dark quick-paste window showing sample clips and their source apps"></p>
 
 ## Getting started
 
@@ -17,6 +17,8 @@ A local clipboard history for macOS. Open the menu-bar picker, find something yo
 For automatic insertion, allow the installed app under **System Settings → Privacy & Security → Accessibility**. Some macOS versions call this **Device Control and Data Access**. You can also use **Copy** and paste manually. This release is ad-hoc signed and has not been notarized by Apple. Gatekeeper may block the downloaded build.
 
 ## In the picker
+
+The picker opens with a library sidebar. Click a collection or a library filter to narrow the list. Each row shows the source app and copy date. The sidebar button beside Search switches between library and compact views and remembers your choice.
 
 - Search by text, source app, or collection. Source logos help distinguish similar entries.
 - Use a row’s **…** menu to preview, favorite, organize, or delete a clip.
