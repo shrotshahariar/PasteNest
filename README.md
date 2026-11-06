@@ -4,7 +4,7 @@
 
 A local clipboard history for macOS. Open the menu-bar picker, find something you copied, and click once to paste it back into the app you were using.
 
-**[Download PasteNest 1.3 for Apple Silicon](https://github.com/shrotshahariar/PasteNest/releases/download/v1.3.0/PasteNest-1.3-macOS-arm64.zip)** · [Release notes and checksum](https://github.com/shrotshahariar/PasteNest/releases/tag/v1.3.0)
+**[Download PasteNest 1.3.1 for Apple Silicon](https://github.com/shrotshahariar/PasteNest/releases/download/v1.3.1/PasteNest-1.3.1-macOS-arm64.zip)** · [Release notes and checksum](https://github.com/shrotshahariar/PasteNest/releases/tag/v1.3.1)
 
 <p><img src="picker.png" width="600" alt="PasteNest's light quick-paste window showing sample clips and their source apps"></p>
 
@@ -32,13 +32,19 @@ Open the **…** menu on a text or link clip and choose **Paste with Filter**. E
 
 ## In the picker
 
-The picker opens with a library sidebar. Click a collection or a library filter to narrow the list. Each row shows the source app and copy date. The sidebar button beside Search switches between library and compact views and remembers your choice.
+The picker opens with a library sidebar. Click a collection or a library filter to narrow the list. Look for the leather folio for Work, the bookmarked journal for Personal, and the archive box for Pastebot imports. Other collections have tabbed folders with a color that stays consistent across launches. Each row shows the source app and copy date. The sidebar button beside Search switches between library and compact views and remembers your choice.
 
 - Search by text, source app, or collection. Source logos help distinguish similar entries.
 - Use a row’s **…** menu to preview, favorite, organize, or delete a clip.
 - Choose **Paste as Plain Text** in a text or link’s row menu to paste without formatting.
 - Open the gear to choose a shortcut, switch appearance, pause capture, or ignore an app.
 - Click outside to dismiss. Capture continues in the menu bar until you quit.
+
+<details><summary>Collection icons in light and dark</summary>
+
+<img src="collections.png" width="300" alt="Work folio, Personal journal, Pastebot archive box, and a custom folder in light and dark mode.">
+
+</details>
 
 ## What is stored
 
