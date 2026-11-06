@@ -4,7 +4,7 @@
 
 A local clipboard history for macOS. Open the menu-bar picker, find something you copied, and click once to paste it back into the app you were using.
 
-**[Download PasteNest 1.0 for Apple Silicon](https://github.com/shrotshahariar/PasteNest/releases/download/v1.0.0/PasteNest-1.0-macOS-arm64.zip)** · [Release notes and checksum](https://github.com/shrotshahariar/PasteNest/releases/tag/v1.0.0)
+**[Download PasteNest 1.1 for Apple Silicon](https://github.com/shrotshahariar/PasteNest/releases/download/v1.1.0/PasteNest-1.1-macOS-arm64.zip)** · [Release notes and checksum](https://github.com/shrotshahariar/PasteNest/releases/tag/v1.1.0)
 
 <p><img src="picker.png" width="432" alt="PasteNest's dark quick-paste window showing sample clips and their source apps"></p>
 
@@ -20,6 +20,7 @@ For automatic insertion, allow the installed app under **System Settings → Pri
 
 - Search by text, source app, or collection. Source logos help distinguish similar entries.
 - Use a row’s **…** menu to preview, favorite, organize, or delete a clip.
+- Choose **Paste as Plain Text** in a text or link’s row menu to paste without formatting.
 - Open the gear to choose a shortcut, switch appearance, pause capture, or ignore an app.
 - Click outside to dismiss. Capture continues in the menu bar until you quit.
 
